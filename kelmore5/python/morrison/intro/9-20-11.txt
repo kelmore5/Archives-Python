@@ -1,0 +1,214 @@
+Python 2.7.2 (default, Jun 12 2011, 15:08:59) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> import math
+>>> dir(math)
+
+Traceback (most recent call last):
+  File "<pyshell#1>", line 1, in <module>
+    ir(math)
+NameError: name 'ir' is not defined
+>>> dir()
+['__builtins__', '__doc__', '__name__', '__package__', 'math']
+>>> dir(math)
+['__doc__', '__name__', '__package__', 'acos', 'acosh', 'asin', 'asinh', 'atan', 'atan2', 'atanh', 'ceil', 'copysign', 'cos', 'cosh', 'degrees', 'e', 'erf', 'erfc', 'exp', 'expm1', 'fabs', 'factorial', 'floor', 'fmod', 'frexp', 'fsum', 'gamma', 'hypot', 'isinf', 'isnan', 'ldexp', 'lgamma', 'log', 'log10', 'log1p', 'modf', 'pi', 'pow', 'radians', 'sin', 'sinh', 'sqrt', 'tan', 'tanh', 'trunc']
+>>> pi
+
+Traceback (most recent call last):
+  File "<pyshell#4>", line 1, in <module>
+    pi
+NameError: name 'pi' is not defined
+>>> cos(0)
+
+Traceback (most recent call last):
+  File "<pyshell#5>", line 1, in <module>
+    cos(0)
+NameError: name 'cos' is not defined
+>>> math.cos(0)
+1.0
+>>> math.pi
+3.141592653589793
+>>> math.cos(90)
+-0.4480736161291701
+>>> math.degrees
+<built-in function degrees>
+>>> math.cos(90)
+-0.4480736161291701
+>>> math.radians(90)
+1.5707963267948966
+>>> math.cos(1.5707963267948966)
+6.123233995736766e-17
+>>> math.cos(math.radians(90))
+6.123233995736766e-17
+>>> ================================ RESTART ================================
+>>> 
+>>> ================================ RESTART ================================
+>>> 
+Enter the length of one side of the triangle:  5
+Enter the length of the other side of the triangle:  6
+>>> ================================ RESTART ================================
+>>> 
+Enter the length of one side of the triangle:  5
+Enter the length of the other side of the triangle:  6
+Enter the angle between the two sides of the triangle:  30
+The third side of the triangle is:   3.0064057898
+>>> ================================ RESTART ================================
+>>> 
+Enter the length of one side of the triangle:  4
+Enter the length of the other side of the triangle:  5
+Enter the angle between the two sides of the triangle:  45
+The third side of the triangle is:   3.56591205059
+>>> ================================ RESTART ================================
+>>> 
+Enter the length of one side of the triangle:  5
+Enter the length of the other side of the triangle:  6
+Enter the angle between the two sides of the triangle:  30
+You entered a = 5, b = 6, and angle theta = 30
+The third side of the triangle is:   3.0064057898
+>>> ================================ RESTART ================================
+>>> 
+Enter the length of one side of the triangle:  5
+Enter the length of the other side of the triangle:  6
+Enter the angle between the two sides of the triangle:  30
+You entered a = 5, b = 6, and angle theta = 30
+The third side of the triangle is:   3.0064057898
+>>> ================================ RESTART ================================
+>>> 
+Enter the length of one side of the triangle:  3
+Enter the length of the other side of the triangle:  4
+Enter the angle between the two sides of the triangle:  90
+You entered a = 3, b = 4, and angle theta = 90
+The third side of the triangle is:   5.0
+>>> ================================ RESTART ================================
+>>> 
+Enter the length of one side of the triangle:  3
+Enter the length of the other side of the triangle:  4
+Enter the angle between the two sides of the triangle:  90
+You entered a = 3, b = 4, and angle theta = 90
+The third side of the triangle, c, is 5.0:  
+>>> x = AAA
+
+Traceback (most recent call last):
+  File "<pyshell#14>", line 1, in <module>
+    x = AAA
+NameError: name 'AAA' is not defined
+>>> x = "AAA"
+>>> len(A"
+    
+SyntaxError: EOL while scanning string literal
+>>> len("A")
+1
+>>> len(A)
+
+Traceback (most recent call last):
+  File "<pyshell#18>", line 1, in <module>
+    len(A)
+NameError: name 'A' is not defined
+>>> len(x)
+3
+>>> len(x, A)
+
+Traceback (most recent call last):
+  File "<pyshell#20>", line 1, in <module>
+    len(x, A)
+NameError: name 'A' is not defined
+>>> len(x, "A")
+
+Traceback (most recent call last):
+  File "<pyshell#21>", line 1, in <module>
+    len(x, "A")
+TypeError: len() takes exactly one argument (2 given)
+>>> len(x) A
+SyntaxError: invalid syntax
+>>> ================================ RESTART ================================
+>>> 
+Enter the length of one side of the triangle:  1
+Enter the length of the other side of the triangle:  1
+Enter the angle between the two sides of the triangle:  60
+You entered a = 1, b = 1, and angle theta = 60
+The third side of the triangle, c, is 1.0:  
+>>> math.fabs(5)
+5.0
+>>> math.fabs(-5)
+5.0
+>>> math.factorial(5)
+120
+>>> math.floor(4.5)
+4.0
+>>> math.floor(-5.5)
+-6.0
+>>> len(x).count(A)
+
+Traceback (most recent call last):
+  File "<pyshell#28>", line 1, in <module>
+    len(x).count(A)
+NameError: name 'x' is not defined
+>>> count("A")
+
+Traceback (most recent call last):
+  File "<pyshell#29>", line 1, in <module>
+    count("A")
+NameError: name 'count' is not defined
+>>> math.exp(5)
+148.4131591025766
+>>> x.count(A)
+
+Traceback (most recent call last):
+  File "<pyshell#31>", line 1, in <module>
+    x.count(A)
+NameError: name 'x' is not defined
+>>> ================================ RESTART ================================
+>>> 
+Enter the length of one side of the triangle:  3
+Enter the length of the other side of the triangle:  4
+Enter the angle between the two sides of the triangle:  90
+You entered a = 3, b = 4, and angle theta = 90
+The third side of the triangle, c, is 5.0:  
+>>> x["A"]
+
+Traceback (most recent call last):
+  File "<pyshell#32>", line 1, in <module>
+    x["A"]
+NameError: name 'x' is not defined
+>>> x = [1, 2, 3]
+>>> y = "AAAbbbaaa"
+>>> y.count(A)
+
+Traceback (most recent call last):
+  File "<pyshell#35>", line 1, in <module>
+    y.count(A)
+NameError: name 'A' is not defined
+>>> y.count("A")
+3
+>>> y.count("A" + "b")
+1
+>>> a = y.count("A") + y.count("b")
+>>> a
+6
+>>> ================================ RESTART ================================
+>>> 
+>>> ================================ RESTART ================================
+>>> 
+t = 4, t*t = 16, t*t*t = 64
+>>> ================================ RESTART ================================
+>>> 
+t = 4, t*t = 16, t*t*t = 64
+
+Traceback (most recent call last):
+  File "H:/Computer Science/Python/How to Import Functions.py", line 2, in <module>
+    print "The cube of 5 is %s" % cube(5)
+NameError: name 'cube' is not defined
+>>> ================================ RESTART ================================
+>>> 
+t = 4, t*t = 16, t*t*t = 64
+>>> ================================ RESTART ================================
+>>> 
+t = 4, t*t = 16, t*t*t = 64
+>>> ================================ RESTART ================================
+>>> 
+t = 4, t*t = 16, t*t*t = 64
+
+Traceback (most recent call last):
+  File "H:/Computer Science/Python/How to Import Functions.py", line 2, in <module>
+    print "The cube of 5 is %s" % cube(5)
+NameError: name 'cube' is not defined
+>>> 

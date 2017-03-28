@@ -1,0 +1,129 @@
+Python 2.7.2 (default, Jun 12 2011, 15:08:59) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> dir()
+['__builtins__', '__doc__', '__name__', '__package__']
+>>> x = 5
+>>> dir()
+['__builtins__', '__doc__', '__name__', '__package__', 'x']
+>>> cat = 5
+>>> dir()
+['__builtins__', '__doc__', '__name__', '__package__', 'cat', 'x']
+>>> dir(x)
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__format__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__sizeof__', '__str__', '__sub__', '__subclasshook__', '__truediv__', '__trunc__', '__xor__', 'bit_length', 'conjugate', 'denominator', 'imag', 'numerator', 'real']
+>>> #symbol table now has entry x -> 5
+>>> dog = 6
+>>> dog*cat
+30
+>>> dir()
+['__builtins__', '__doc__', '__name__', '__package__', 'cat', 'dog', 'x']
+>>> #cat -> 5 dog -> 6
+>>> cat*dog
+30
+>>> woof = "*"*cat
+>>> print "cat = %s, dog = %s, woof = %s" % (cat, dog, woof)
+cat = 5, dog = 6, woof = *****
+>>> print sheep*woof
+
+Traceback (most recent call last):
+  File "<pyshell#14>", line 1, in <module>
+    print sheep*woof
+NameError: name 'sheep' is not defined
+>>> dir()
+['__builtins__', '__doc__', '__name__', '__package__', 'cat', 'dog', 'woof', 'x']
+>>> woof += "virginia"
+>>> print woof
+*****virginia
+>>> dir()
+['__builtins__', '__doc__', '__name__', '__package__', 'cat', 'dog', 'woof', 'x']
+>>> sheep +="virginia"
+
+Traceback (most recent call last):
+  File "<pyshell#19>", line 1, in <module>
+    sheep +="virginia"
+NameError: name 'sheep' is not defined
+>>> dir()
+['__builtins__', '__doc__', '__name__', '__package__', 'cat', 'dog', 'woof', 'x']
+>>> cat
+5
+d
+>>> og
+
+Traceback (most recent call last):
+  File "<pyshell#22>", line 1, in <module>
+    og
+NameError: name 'og' is not defined
+>>> dog
+6
+>>> woof
+'*****virginia'
+>>> x
+5
+>>> truth = cat < dog
+>>> truth
+True
+>>> dir()
+['__builtins__', '__doc__', '__name__', '__package__', 'cat', 'dog', 'truth', 'woof', 'x']
+>>> dog = 4
+>>> truth
+True
+>>> dog
+4
+>>> cat
+
+Traceback (most recent call last):
+  File "<pyshell#32>", line 1, in <module>
+    at
+NameError: name 'at' is not defined
+>>> cat
+5
+>>> dog = 6
+>>> str(cat)
+'5'
+>>> int(truth)
+1
+>>> int(not truth)
+0
+>>> dir(x)
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__format__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__sizeof__', '__str__', '__sub__', '__subclasshook__', '__truediv__', '__trunc__', '__xor__', 'bit_length', 'conjugate', 'denominator', 'imag', 'numerator', 'real']
+>>> dir(doc)
+
+Traceback (most recent call last):
+  File "<pyshell#39>", line 1, in <module>
+    dir(doc)
+NameError: name 'doc' is not defined
+>>> dir()
+['__builtins__', '__doc__', '__name__', '__package__', 'cat', 'dog', 'truth', 'woof', 'x']
+>>> dir(doc)
+
+Traceback (most recent call last):
+  File "<pyshell#41>", line 1, in <module>
+    dir(doc)
+NameError: name 'doc' is not defined
+>>> x = 2
+>>> print x
+2
+>>> x = (x*x + 2)/(2*x)
+>>> x = (x*x + 2)/(2*x)
+>>> x = (x*x + 2)/(2*x)
+>>> x = (x*x + 2)/(2*x)
+>>> 
+>>> x = (x*x + 2)/(2*x)
+>>> 
+>>> x = (x*x + 2.0)/(2.0*x)
+>>> print x
+1.5
+>>> x = (x*x+2.0)/(2*x)
+>>> print x
+1.41666666667
+>>> type(x)
+<type 'float'>
+>>> str(5) + "foo"
+'5foo'
+>>> ================================ RESTART ================================
+>>> 
+>>> ================================ RESTART ================================
+>>> 
+>>> ================================ RESTART ================================
+>>> 
+square(5) =  25
+>>> 

@@ -1,0 +1,171 @@
+Python 2.7.2 (default, Jun 12 2011, 15:08:59) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> def f(x):
+	return x*x
+
+>>> f(2)
+4
+>>> f(5)
+25
+>>> quack = f
+>>> quack(5)
+25
+>>> f = "gooseberries"
+>>> f(5)
+
+Traceback (most recent call last):
+  File "<pyshell#9>", line 1, in <module>
+    f(5)
+TypeError: 'str' object is not callable
+>>> quack(x)
+
+Traceback (most recent call last):
+  File "<pyshell#10>", line 1, in <module>
+    quack(x)
+NameError: name 'x' is not defined
+>>> quack(5)
+25
+>>> def report(x):
+	results = ["H", "T"]
+	return results[x]
+
+>>> report(1)
+'T'
+>>> report (0)
+'H'
+>>> report(2)
+
+Traceback (most recent call last):
+  File "<pyshell#18>", line 1, in <module>
+    report(2)
+  File "<pyshell#15>", line 3, in report
+    return results[x]
+IndexError: list index out of range
+>>> report
+<function report at 0x02A34B30>
+>>> def blab():
+	print "First Hill will all go to class in drag tomorrow."
+
+	
+>>> blab()
+First Hill will all go to class in drag tomorrow.
+>>> blab(1)
+
+Traceback (most recent call last):
+  File "<pyshell#24>", line 1, in <module>
+    blab(1)
+TypeError: blab() takes no arguments (1 given)
+>>> print blab()
+First Hill will all go to class in drag tomorrow.
+None
+>>> print report(1)
+T
+>>> print blab(1)
+
+Traceback (most recent call last):
+  File "<pyshell#27>", line 1, in <module>
+    print blab(1)
+TypeError: blab() takes no arguments (1 given)
+>>> import random
+>>> dir()
+['__builtins__', '__doc__', '__name__', '__package__', 'blab', 'f', 'quack', 'random', 'report']
+>>> random.randint(1,6)
+6
+>>> def f(x):
+	random.randint(1,6)
+
+	
+>>> f
+<function f at 0x02A6CBB0>
+>>> f(x)
+
+Traceback (most recent call last):
+  File "<pyshell#36>", line 1, in <module>
+    f(x)
+NameError: name 'x' is not defined
+>>> def f()
+SyntaxError: invalid syntax
+>>> def f():
+	random.randint(1,6)
+
+	
+>>> f()
+>>> def rollDice():
+	return (random.ranint(1,6), random.randint(1,6))
+
+>>> rollDice()
+
+Traceback (most recent call last):
+  File "<pyshell#45>", line 1, in <module>
+    rollDice()
+  File "<pyshell#44>", line 2, in rollDice
+    return (random.ranint(1,6), random.randint(1,6))
+AttributeError: 'module' object has no attribute 'ranint'
+>>> def rollDice():
+	return (random.randint(1,6), random.randint(1,6))
+
+>>> rollDice()
+(1, 3)
+>>> suspects = ["Mrs. Green", "Professor Plum", "Miss Scarlet", "Colonel Mustard"]
+>>> random.choice(suspects)
+'Colonel Mustard'
+>>> random.choice(suspects)
+'Colonel Mustard'
+>>> random.choice(suspects)
+'Colonel Mustard'
+random.choice(suspects)
+>>> 
+>>> random.choice(suspects)
+'Professor Plum'
+>>> random.choice(suspects)
+'Miss Scarlet'
+>>> random.choice(suspects)
+'Mrs. Green'
+>>> random.choice(suspects)
+'Mrs. Green'
+>>> random.choice(suspects)
+'Miss Scarlet'
+>>> x = range(0,10)
+>>> random.shuffle(x)
+>>> x
+[0, 8, 4, 6, 9, 7, 3, 1, 2, 5]
+>>> x.sort()
+>>> x
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "H:/Computer Science/Python/Module.py", line 6, in <module>
+    print "The cube of %s is %s and the cube of %s is %s" %(a, square(a), a, cube(a))
+NameError: name 'cube' is not defined
+>>> ================================ RESTART ================================
+>>> 
+The cube of 7 is 49 and the cube of 7 is 343
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "H:/Computer Science/Python/Client.py", line 1, in <module>
+    import library
+ImportError: No module named library
+>>> ================================ RESTART ================================
+>>> 
+The cube of 7 is 49 and the cube of 7 is 343
+289
+4913
+>>> ================================ RESTART ================================
+>>> 
+289
+4913
+>>> ================================ RESTART ================================
+>>> 
+The cube of 7 is 49 and the cube of 7 is 343
+>>> x = [1, 2, 3]
+>>> x
+[1, 2, 3]
+>>> x[1]
+2
+>>> print x[1]
+2
+>>> 

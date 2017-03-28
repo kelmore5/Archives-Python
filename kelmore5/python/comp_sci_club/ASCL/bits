@@ -1,0 +1,32 @@
+##################################################################
+#    
+#    Author: Kyle Elmore
+#    Date: 12/19/11
+#    Grade: Junior
+#    School: North Carolina School of Science and Mathematics
+#    American Computer Scence League: Intermediate Division
+#    
+##################################################################
+
+def matchBinary():
+    bits = []
+    bitsLongHand = []
+    bitLongHand = ""
+    shortHand = raw_input("Enter the short hand version of the bit string:  ")
+    bitsNumber = raw_input("Enter the number of bits to follow:  ")
+    while(bitsNumber > 0):
+        bits.append(raw_input("Enter the bit string to compare to the short hand:  "))
+        bitsNumber -= 1
+    bits = [list(k) for k in bits]
+    for k in bits:
+        while("*" in shortHand):
+              k.pop(shortHand.index("*"))
+              shortHand.pop(shortHand.index("*"))
+    bits = ["".join(k) for k in bits]
+    "".join(sh)
+    for k in bits:
+        if k == shortHand:
+            return True
+    return False
+
+matchBinary()

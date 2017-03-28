@@ -1,0 +1,75 @@
+Python 2.7.2 (default, Jun 12 2011, 15:08:59) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> def f(x): return x*x
+
+>>> f(5)
+25
+>>> y = range(20)
+>>> z = [f(k) for k in y]
+>>> y
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+>>> z
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225, 256, 289, 324, 361]
+>>> w = map(f, y)
+>>> w
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225, 256, 289, 324, 361]
+>>> ###filter
+>>> 
+>>> def inFirstHalf(x): return x.lower() < "m"
+
+>>> inFirstHalf("abcdefghijklmnopqrstuvwxyz")
+True
+>>> names = ["abraham", "zither", "cow", "waffle", "godzilla", "freddie krueger"]
+>>> names
+['abraham', 'zither', 'cow', 'waffle', 'godzilla', 'freddie krueger']
+>>> early = filter(inFirstHalf, names)
+>>> print early
+['abraham', 'cow', 'godzilla', 'freddie krueger']
+>>> e = [k if inFirstHalf(k) for k in names]
+SyntaxError: invalid syntax
+>>> e = [k for k in names if inFirstHalf(k)]
+>>> e
+['abraham', 'cow', 'godzilla', 'freddie krueger']
+>>> crazy = range(100)
+>>> a = [k*k for k in crazy if k*k*k - 5*k < 300]
+>>> a
+[0, 1, 4, 9, 16, 25, 36]
+>>> x = range(100)
+>>> y = [k for k in x if k**5 + k**2 < 10000]
+>>> y
+[0, 1, 2, 3, 4, 5, 6]
+>>> x = range(100)
+>>> x = range(1,101)
+>>> y = [k for k in x if k**5 + k**2 < 10000]
+>>> sum(y)
+21
+>>> 5^2
+7
+>>> 7^2
+5
+>>> x = [76, 67, 66, 66, 62, 68, 70, 70, 62, 74]
+>>> len(x)
+10
+>>> mean = float(sum(x))/len(x)
+>>> mean
+68.1
+>>> x.append(67)
+>>> x
+[76, 67, 66, 66, 62, 68, 70, 70, 62, 74, 67]
+>>> mean = float(sum(x))/len(x)
+>>> mean
+68.0
+>>> resids = [k - mean for k in x]
+>>> resids
+[8.0, -1.0, -2.0, -2.0, -6.0, 0.0, 2.0, 2.0, -6.0, 6.0, -1.0]
+>>> SSE = sum([k*k for k in resids])
+>>> SSE
+190.0
+>>> MSE = SSE/len(x)
+>>> MSE
+17.272727272727273
+>>> import math
+>>> stddev = math.sqrt(MSE)
+>>> stddev
+4.1560470729681676
+>>> 

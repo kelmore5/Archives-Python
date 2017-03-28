@@ -1,0 +1,439 @@
+Python 2.7.2 (default, Jun 12 2011, 15:08:59) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> from PrePostConditions import *
+
+Traceback (most recent call last):
+  File "<pyshell#0>", line 1, in <module>
+    from PrePostConditions import *
+ImportError: No module named PrePostConditions
+>>> ================================ RESTART ================================
+>>> 
+5
+6
+
+Traceback (most recent call last):
+  File "H:/Computer Science/Python/9-23-11/test.py", line 6, in <module>
+    hypot()
+NameError: name 'hypot' is not defined
+>>> ================================ RESTART ================================
+>>> 
+5
+6
+
+Traceback (most recent call last):
+  File "H:/Computer Science/Python/9-23-11/test.py", line 6, in <module>
+    hypot()
+TypeError: hypot() takes exactly 2 arguments (0 given)
+>>> ================================ RESTART ================================
+>>> 
+Enter a side length:  5
+Enter a side lenght:  6
+>>> ================================ RESTART ================================
+>>> 
+Enter a side length:  3
+Enter a side lenght:  4
+5.0
+>>> ================================ RESTART ================================
+>>> 
+Enter a side length:  3
+Enter a side lenght:  4
+The right triangle you specified with legs of length
+3 and 4 has third side of lenght 5.0
+>>> ================================ RESTART ================================
+>>> 
+Enter a side length:  3
+Enter a side lenght:  4
+The right triangle you specified with legs of length
+3 and 4 has third side of length 5.0
+>>> open PrePostConditions.py
+SyntaxError: invalid syntax
+>>> open PrePostConditions
+SyntaxError: invalid syntax
+>>> ================================ RESTART ================================
+>>> 
+Problem 0 Solution:
+
+Enter a temperature in degrees Centigrade:  3
+The temperature 3 degrees Centigrade is 37.4 degrees Farenheit.
+
+Problem 1 Solution:
+ 
+Enter a volume in cubic centimeters: 5
+The volume 5 cubic centimeters in cubic inches is 0.305118720474 cubic centimeters.
+Problem 2 Solution:
+ 
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+Problem 3 Solution:
+ 
+Enter a string:  lkasdfkjl
+You entered lkasdfkjl
+The number of letter x's in lkasdfkjl is:  0
+The number of letter y's in lkasdfkjl is:  0
+The number of letter z's in lkasdfkjl is:  0
+Problem 4 Solution:
+ 
+Enter a string; to end just hit ENTER:  
+Problem 5 Solution:
+ 
+
+Traceback (most recent call last):
+  File "H:\Computer Science\Problems\elmore13kPS1.py", line 78, in <module>
+    print items[1]
+IndexError: list index out of range
+>>> ================================ RESTART ================================
+>>> 
+Problem 0 Solution:
+
+Enter a temperature in degrees Centigrade:  5
+The temperature 5 degrees Centigrade is 41.0 degrees Farenheit.
+
+Problem 1 Solution:
+ 
+Enter a volume in cubic centimeters: 6
+The volume 6 cubic centimeters in cubic inches is 0.366142464568 cubic centimeters.
+Problem 2 Solution:
+ 
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+Problem 3 Solution:
+ 
+Enter a string:  adflka;jfdzxxv
+You entered adflka;jfdzxxv
+The number of letter x's in adflka;jfdzxxv is:  2
+The number of letter y's in adflka;jfdzxxv is:  0
+The number of letter z's in adflka;jfdzxxv is:  1
+Problem 4 Solution:
+ 
+Enter a string; to end just hit ENTER:  flkjadf, adlfkasd, ewlk;af, "adlkfjsadf", "aslkdfjasldkfj"
+Enter a string; to end just hit ENTER:  ["asldkjdsafk", "alkdjfalksd"]
+Enter a string; to end just hit ENTER:  
+Problem 5 Solution:
+ 
+flkjadf, adlfkasd, ewlk;af, "adlkfjsadf", "aslkdfjasldkfj"
+Problem 6 Solution:
+ 
+Problem 7 Solution:
+ 
+Problem 8 Solution:
+
+>>> ================================ RESTART ================================
+>>> 
+Problem 0 Solution:
+
+Enter a temperature in degrees Centigrade:  345
+The temperature 345 degrees Centigrade is 653.0 degrees Farenheit.
+
+Problem 1 Solution:
+ 
+Enter a volume in cubic centimeters: 43
+The volume 43 cubic centimeters in cubic inches is 2.62402099607 cubic centimeters.
+Problem 2 Solution:
+ 
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+Problem 3 Solution:
+ 
+Enter a string:  dxadfyx
+You entered dxadfyx
+The number of letter x's in dxadfyx is:  2
+The number of letter y's in dxadfyx is:  1
+The number of letter z's in dxadfyx is:  0
+Problem 4 Solution:
+ 
+Enter a string; to end just hit ENTER:  Hi
+Enter a string; to end just hit ENTER:  Hello
+Enter a string; to end just hit ENTER:  Jack
+Enter a string; to end just hit ENTER:  Jill
+Enter a string; to end just hit ENTER:  
+Problem 5 Solution:
+ 
+Hi
+Problem 6 Solution:
+ 
+Problem 7 Solution:
+ 
+Problem 8 Solution:
+
+>>> ================================ RESTART ================================
+>>> 
+Problem 0 Solution:
+
+Enter a temperature in degrees Centigrade:  435
+The temperature 435 degrees Centigrade is 815.0 degrees Farenheit.
+
+Problem 1 Solution:
+ 
+Enter a volume in cubic centimeters: 235
+The volume 235 cubic centimeters in cubic inches is 14.3405798623 cubic centimeters.
+Problem 2 Solution:
+ 
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+Problem 3 Solution:
+ 
+Enter a string:  xyxyxyx
+You entered xyxyxyx
+The number of letter x's in xyxyxyx is:  4
+The number of letter y's in xyxyxyx is:  3
+The number of letter z's in xyxyxyx is:  0
+Problem 4 Solution:
+ 
+Enter a string; to end just hit ENTER:  Jack
+Enter a string; to end just hit ENTER:  Jill
+Enter a string; to end just hit ENTER:  Jane
+Enter a string; to end just hit ENTER:  Jack
+Enter a string; to end just hit ENTER:  
+Problem 5 Solution:
+ 
+Jane
+Problem 6 Solution:
+ 
+Problem 7 Solution:
+ 
+Problem 8 Solution:
+
+>>> ================================ RESTART ================================
+>>> 
+function demo
+
+Traceback (most recent call last):
+  File "H:/Computer Science/Python/9-23-11/Demo.py", line 7, in <module>
+    print "f(%s) = %s" % (y, g(y))
+NameError: name 'y' is not defined
+>>> ================================ RESTART ================================
+>>> 
+function demo
+f(4) = 64
+>>> ================================ RESTART ================================
+>>> 
+just before the main routine, dir =  ['__builtins__', '__doc__', '__name__', '__package__', 'f', 'g']
+function demo
+f(4) = 64
+>>> ================================ RESTART ================================
+>>> 
+Problem 0 Solution:
+
+Enter a temperature in degrees Centigrade:  345
+The temperature 345 degrees Centigrade is 653.0 degrees Farenheit.
+
+Problem 1 Solution:
+ 
+Enter a volume in cubic centimeters: 345
+The volume 345 cubic centimeters in cubic inches is 21.0531917127 cubic centimeters.
+Problem 2 Solution:
+ 
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+Problem 3 Solution:
+ 
+Enter a string:  asdlfx
+You entered asdlfx
+The number of letter x's in asdlfx is:  1
+The number of letter y's in asdlfx is:  0
+The number of letter z's in asdlfx is:  0
+Problem 4 Solution:
+ 
+Enter a string; to end just hit ENTER:  Hi
+Enter a string; to end just hit ENTER:  Hello
+Enter a string; to end just hit ENTER:  Howdy
+Enter a string; to end just hit ENTER:  
+Problem 5 Solution:
+ 
+Hello
+Problem 6 Solution:
+ 
+Problem 7 Solution:
+ 
+Problem 8 Solution:
+
+>>> ================================ RESTART ================================
+>>> 
+Problem 0 Solution:
+
+Enter a temperature in degrees Centigrade:  325
+The temperature 325 degrees Centigrade is 617.0 degrees Farenheit.
+
+Problem 1 Solution:
+ 
+Enter a volume in cubic centimeters: 235
+The volume 235 cubic centimeters in cubic inches is 14.3405798623 cubic centimeters.
+Problem 2 Solution:
+ 
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+Problem 3 Solution:
+ 
+Enter a string:  asdl;kf
+You entered asdl;kf
+The number of letter x's in asdl;kf is:  0
+The number of letter y's in asdl;kf is:  0
+The number of letter z's in asdl;kf is:  0
+Problem 4 Solution:
+ 
+Enter a string; to end just hit ENTER:  Hi
+Enter a string; to end just hit ENTER:  Hello
+Enter a string; to end just hit ENTER:  Hey
+Enter a string; to end just hit ENTER:  
+Problem 5 Solution:
+ 
+Hello
+['Hello', 'Hey', 'Hi']
+Problem 6 Solution:
+ 
+Problem 7 Solution:
+ 
+Problem 8 Solution:
+
+>>> ================================ RESTART ================================
+>>> 
+just before the main routine, dir =  ['__builtins__', '__doc__', '__name__', '__package__', 'f', 'g']
+function demo
+f(4) = 64
+at the end, dir =  ['__builtins__', '__doc__', '__name__', '__package__', 'f', 'g', 'y']
+>>> ================================ RESTART ================================
+>>> 
+just before the main routine, dir =  ['__builtins__', '__doc__', '__name__', '__package__', 'f', 'g']
+function demo
+inside g:  ['x']
+f(4) = 64
+at the end, dir =  ['__builtins__', '__doc__', '__name__', '__package__', 'f', 'g', 'y']
+>>> ================================ RESTART ================================
+>>> 
+just before the main routine, dir =  ['__builtins__', '__doc__', '__name__', '__package__', 'f', 'g']
+function demo
+just after y is created, the main routine, dir =  ['__builtins__', '__doc__', '__name__', '__package__', 'f', 'g', 'y']
+inside g:  ['x']
+f(4) = 64
+at the end, dir =  ['__builtins__', '__doc__', '__name__', '__package__', 'f', 'g', 'y']
+>>> y = [1, 2]
+>>> y.count(i)
+
+Traceback (most recent call last):
+  File "<pyshell#4>", line 1, in <module>
+    y.count(i)
+NameError: name 'i' is not defined
+>>> y.count(k)
+
+Traceback (most recent call last):
+  File "<pyshell#5>", line 1, in <module>
+    y.count(k)
+NameError: name 'k' is not defined
+>>> y.count()
+
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    y.count()
+TypeError: count() takes exactly one argument (0 given)
+>>> y.count(int)
+0
+>>> ================================ RESTART ================================
+>>> 
+just before the main routine, dir =  ['__builtins__', '__doc__', '__name__', '__package__', 'f', 'g']
+function demo
+just after y is created, the main routine, dir =  ['__builtins__', '__doc__', '__name__', '__package__', 'f', 'g', 'y']
+inside g:  ['x']
+f(4) = 64
+at the end, dir =  ['__builtins__', '__doc__', '__name__', '__package__', 'f', 'g', 'y']
+
+Traceback (most recent call last):
+  File "H:/Computer Science/Python/9-23-11/Demo.py", line 15, in <module>
+    print z
+NameError: name 'z' is not defined
+>>> ================================ RESTART ================================
+>>> 
+cow = 14
+cow = 14
+>>> ================================ RESTART ================================
+>>> 
+cow = 14
+None
+cow = 14
+>>> ================================ RESTART ================================
+>>> 
+cow = 14
+None
+cow = 14
+>>> ================================ RESTART ================================
+>>> 
+cow = 14
+15
+cow = 14
+>>> ================================ RESTART ================================
+>>> 
+cow = 14
+None ['__builtins__', '__doc__', '__name__', '__package__', 'austintatious', 'cow', 'f', 'g']
+cow = 14
+>>> ================================ RESTART ================================
+>>> 
+cow = 14
+None
+cow = 14
+>>> ================================ RESTART ================================
+>>> 
+cow = 14
+15
+cow = 14
+>>> ================================ RESTART ================================
+>>> 
+cow = 14
+None
+cow = 14
+nums = [2, 3, 4]
+nums = [1.5, 3, 4]
+>>> ================================ RESTART ================================
+>>> 
+cow = 14
+None
+cow = 14
+nums = [2, 3, 4]
+nums = [2, 3, 4]
+>>> 
